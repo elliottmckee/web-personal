@@ -7,6 +7,6 @@ const posts = (await getCollection('blog')).sort(
 ---
 
 <ul>
-    {posts.map((post) => <li><a href={`blog/${post.slug}/`}>{post.data.title}</a></li>)}
+    {posts.map((post) => <li><a href={`${post.slug}/`}>{post.data.title}</a></li>)}
 </ul>
 
