@@ -10,7 +10,7 @@ const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 
-import PostList from '../../components/PostList.astro';
+import PostList_workaround from '../../components/PostList_workaround.astro';
 ---
 
 <!doctype html>
@@ -91,7 +91,7 @@ import PostList from '../../components/PostList.astro';
 		<Header />
 		<main>
 			<h1>Posts</h1>
-			<PostList />	
+			<PostList_workaround />	
 			
 			<!-- <section>
 				<ul>
