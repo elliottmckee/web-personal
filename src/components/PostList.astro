@@ -1,0 +1,12 @@
+---
+import type { CollectionEntry } from 'astro:content';
+type Props = CollectionEntry<'blog'>['data'];
+import { getCollection } from 'astro:content';
+const posts = (await getCollection('blog')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),);
+---
+
+<ul>
+    {posts.map((post) => <li><a href={`blog/${post.slug}/`}>{post.data.title}</a></li>)}
+</ul>
+

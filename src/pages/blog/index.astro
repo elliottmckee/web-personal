@@ -9,6 +9,8 @@ import FormattedDate from '../../components/FormattedDate.astro';
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
+
+import PostList from '../../components/PostList.astro';
 ---
 
 <!doctype html>
@@ -88,7 +90,10 @@ const posts = (await getCollection('blog')).sort(
 	<body>
 		<Header />
 		<main>
-			<section>
+			<h1>Posts</h1>
+			<PostList />	
+			
+			<!-- <section>
 				<ul>
 					{
 						posts.map((post) => (
@@ -104,7 +109,8 @@ const posts = (await getCollection('blog')).sort(
 						))
 					}
 				</ul>
-			</section>
+			</section> -->
+
 		</main>
 		<Footer />
 	</body>

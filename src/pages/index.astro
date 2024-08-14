@@ -3,6 +3,14 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+
+import PostList from '../components/PostList.astro';
+
+// import type { CollectionEntry } from 'astro:content';
+// type Props = CollectionEntry<'blog'>['data'];
+// import { getCollection } from 'astro:content';
+// const posts = (await getCollection('blog')).sort(
+// 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),);
 ---
 
 <!doctype html>
@@ -15,41 +23,27 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 		<main>
 			<h1>Front Matter</h1>
 			<p>
-				This site is a super WIP. I just needed to somewhere to post about project
-				related things without fear of becoming a threadpooster™️ (... 1/2147 🧵).
+				This site is a super WIP. I just needed somewhere to post about project
+				related things without fear of being a certified twitter threadpooster™️ (... 1/2147 🧵).
 			</p>
 
 			<p>
 				You can find me on <a href="https://github.com/elliottmckee">Github</a>,  <a href="https://twitter.com/mckee_elliott">Twitter</a> and <a href="https://www.linkedin.com/in/elliott-mckee-2a8290193">LinkedIn</a>. If you find me anywhere else, I don't exist.
 			</p>
 
+			
 			<h1>Posts</h1>
 			<p>
-				TODO
+				<PostList /> 
 			</p>
 
 
-			<h1>REMOVE \/</h1>
-
-			<p>Here are a few ideas on how to get started with the template:</p>
-			<ul>
-				<li>Edit this page in <code>src/pages/index.astro</code></li>
-				<li>Edit the site header items in <code>src/components/Header.astro</code></li>
-				<li>Add your name to the footer in <code>src/components/Footer.astro</code></li>
-				<li>Check out the included blog posts in <code>src/content/blog/</code></li>
-				<li>Customize the blog post page layout in <code>src/layouts/BlogPost.astro</code></li>
-			</ul>
+			<h1>About This Site</h1>
 			<p>
-				Have fun! If you get stuck, remember to <a href="https://docs.astro.build/"
-					>read the docs
-				</a> or <a href="https://astro.build/chat">join us on Discord</a> to ask questions.
+				This site is made using Astro, and deployed on Netlify. As very inexperienced web person with only prior experience with Wordpress, I reccomend both.
 			</p>
-			<p>
-				Looking for a blog template with a bit more personality? Check out <a
-					href="https://github.com/Charca/astro-blog-template"
-					>astro-blog-template
-				</a> by <a href="https://twitter.com/Charca">Maxi Ferreira</a>.
-			</p>
+
+
 		</main>
 		<Footer />
 	</body>
