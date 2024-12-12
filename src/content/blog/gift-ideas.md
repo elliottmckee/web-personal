@@ -22,7 +22,8 @@ Adapting this from the list i keep for myself of things I am aiming to buy at so
     *   This looks sold out in Large :(
 *   Nike Killshot 2 Green (Sz 10.5) [https://www.nike.com/t/killshot-2-mens-shoes-72M7D1/FQ8903-300](https://www.nike.com/t/killshot-2-mens-shoes-72M7D1/FQ8903-300)
     *   These also look sold out :( 
-*    
+*   I always appreciate some good knitwear
+
 
 ### Computers
 *   4TB NVME Storage drive  
