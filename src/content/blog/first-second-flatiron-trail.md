@@ -19,4 +19,4 @@ Others, starting as a light rustling like shoes on gravel. As some pieces break 
 
 They fall, and break, and bounce, and bound- racing each other down- some adhering to the channels laid by similar flows previous- others escaping such, before reaching the foot and lying silent.
 
-But they do keep coming.
+Occasional silence... but they do keep coming... every couple of minutes... with impressive consistency. 
