@@ -15,6 +15,8 @@ I wanted to hack this together to share some detail behind what I did for meatro
 
 **This is not the quickest/most-efficient way to get this answer. This was a nice real-world test case of some tools I have been developing to run CFD at home, for hobby uses, on my personal machine.**
 
+Regardless- if you found your way here, I hope you find something in here interesting and/or insightful :)
+
 ![pretty picture 1](meat_pretty_1.png)
 
 
@@ -95,7 +97,7 @@ I also assumed standard atmosphere conditions at each altitude for all these run
 
 
 ## Post-processing
-I am going to skip most of the CFD-solver/setup specific shenanigans. Partially because I believe in you, but mostly because I am running low on time to write this.
+I am going to skip most of the CFD-solver/setup specific shenanigans. Partially because I believe in you, but mostly because I am running low on time to write this. Feel free to reach out to me with questions on one of my linked socials.
 
 But I ran these simulations with "cold-wall" boundary conditions. As in, the temperature of the nosecone tip was always 300 Kelvin in the sims. This will come up later. And I also ran everything turbulent.  
 
