@@ -17,25 +17,16 @@ Adapting this from the list i keep for myself of things I am aiming to buy at so
     
 
 ### Clothing
-
-*   Arbor Treeline sweater (https://www.arborcollective.com/products/tree-line-hoodie-evergreen-24?variant=44356063396088)
-    *   This looks sold out in Large :(
-*   Nike Killshot 2 Green (Sz 10.5) [https://www.nike.com/t/killshot-2-mens-shoes-72M7D1/FQ8903-300](https://www.nike.com/t/killshot-2-mens-shoes-72M7D1/FQ8903-300)
-    *   These also look sold out :( 
 *   I always appreciate some good knitwear
 
 
 ### Computers
-*   4TB NVME Storage drive  
-    *   Something like: [https://pcpartpicker.com/product/PPpzK8/crucial-p3-plus-4-tb-m2-2280-nvme-solid-state-drive-ct4000p3pssd8](https://pcpartpicker.com/product/PPpzK8/crucial-p3-plus-4-tb-m2-2280-nvme-solid-state-drive-ct4000p3pssd8)
-    *   I dont care about speed or anything here, I just need it for its size/form factor
-    *   I'm planning on getting 2x of these in total at some point 
+
     
 
 ### Rocketry
-
 *   Featherweight 
-    *   “Blue Raven” altimeter: [https://www.featherweightaltimeters.com/store/p25/Blue\_Raven\_Permalink.html](https://www.featherweightaltimeters.com/store/p25/Blue_Raven_Permalink.html)
+    *   “Blue Raven” altimeter: 
     *   GPS tracker + ground station: [https://www.featherweightaltimeters.com/store/p22/Featherweight\_GPS\_Tracker\_%28upd%29.html](https://www.featherweightaltimeters.com/store/p22/Featherweight_GPS_Tracker_%28upd%29.html)
         *   “Full system" on that page
         *   Additionally, the charger here: [https://www.featherweightaltimeters.com/store/p6/Dual\_Battery\_Charger.html](https://www.featherweightaltimeters.com/store/p6/Dual_Battery_Charger.html)
