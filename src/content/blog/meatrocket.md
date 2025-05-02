@@ -1,5 +1,5 @@
 ---
-title: 'Meatrocket'
+title: 'High Steaks'
 description: 'The really cursed method behind the madness'
 pubDate: 'Apr 24 2025'
 heroImage: ''
@@ -11,13 +11,15 @@ heroImage: ''
 
 # Preamble
 
-I wanted to hack this together to share some detail behind what I did for meatrocket temperature predictions, but also to maybe help defend+explain some of the really cursed things I did. 
+I wanted to hack this together to share some detail behind what I did for [meatrocket](https://www.youtube.com/bpsspace) temperature predictions, but also to maybe help defend+explain some of the really cursed things I did. 
 
 **This is not the quickest/most-efficient way to get this answer. This was a nice real-world test case of some tools I have been developing to run CFD at home, for hobby uses, on my personal machine.**
 
 Regardless- if you found your way here, I hope you find something in here interesting and/or insightful :)
 
 ![pretty picture 1](meat_pretty_1.png)
+
+![Meatrocket on the pad](meat_onpad.jpeg)
 
 
 
@@ -104,8 +106,8 @@ to help resolve the shock further away from the stagnation point, when it become
 no longer aligned with it, and it is serving to smear the shock out a bit, non-physically.
 
 
-There are smarter ways to do this, which normally involve using a thinner extruded mesh to just capture the boundary layer, and then either 
-"fitting" the mesh to the shock (*which NASA mesh_tools can do*), or adapting your mesh during the solution to dynamically add resolution about the shock where needed.
+There are smarter ways to do this (assuming you have the proper tools/knowledge), which normally involve using a thinner extruded mesh to just capture the boundary layer, and then either 
+"fitting" the mesh to the shock after you solve on an initial mesh (*which NASA mesh_tools can do*), or adapting your mesh during the solution to dynamically add resolution about the shock where needed.
 
 
 
@@ -237,7 +239,7 @@ I do want to call out that one of the larger assumptions I made throughout is th
 I think this is certainly closer to reality than assuming laminar (given high high mach+low altitude, and irl there is a screw in the tip itself which will disturb the flow a bit), 
 but it is certainly possible that this is compensating for error elsewhere (like in the CFD-derived heatrates). But it also may help explain why we cool off faster, later on in flight, in our model. 
 At those points, the velocity and density (and thus, Reynolds number) are way lower, so it is possible we are promoting a more laminar flow over the nosecone, which would serve to reduce heat transfer, 
-which is not captured in this modeling
+which is not captured in this modeling.
 
 ![post-flight prediction](flight_vs_preflight_tuned.png)
 
