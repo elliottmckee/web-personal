@@ -233,6 +233,12 @@ We captured the increase and peak temperature suprisingly well, but we are cooli
 of mass around the nosecone tip that I am not accounting for (the meat itself, the metal below it, the rest of the structure). Maybe the atmosphere was warmer relative to the STDATM I was assuming,
 leading to less aero-cooling. I also didn't correct this for the actual, as-flown profile. 
 
+I do want to call out that one of the larger assumptions I made throughout is that the flow is 100% turbulent over the entirety of the nosecone tip throughout flight. 
+I think this is certainly closer to reality than assuming laminar (given high high mach+low altitude, and irl there is a screw in the tip itself which will disturb the flow a bit), 
+but it is certainly possible that this is compensating for error elsewhere (like in the CFD-derived heatrates). But it also may help explain why we cool off faster, later on in flight, in our model. 
+At those points, the velocity and density (and thus, Reynolds number) are way lower, so it is possible we are promoting a more laminar flow over the nosecone, which would serve to reduce heat transfer, 
+which is not captured in this modeling
+
 ![post-flight prediction](flight_vs_preflight_tuned.png)
 
 
