@@ -13,6 +13,12 @@ heroImage: ''
 
 I wanted to hack this together to share some detail behind what I did for [meatrocket](https://www.youtube.com/bpsspace) temperature predictions, but also to maybe help defend+explain some of the really cursed things I did. 
 
+**The two-bullet summary here is that I:**
+1) ran some CFD to get heating environments
+2) ran a transient-lumped-mass analysis for the copper tip to predict temperatures  
+
+<br>
+
 **This is not the quickest/most-efficient way to get this answer. This was a nice real-world test case of some tools I have been developing to run CFD at home, for hobby uses, on my personal machine.**
 
 Regardless- if you found your way here, I hope you find something in here interesting and/or insightful :)
