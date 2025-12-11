@@ -5,6 +5,8 @@ pubDate: 'Dec 1 2024'
 heroImage: ''
 ---
 
+
+
 There is a curved tree here that serves as a nice reclined lounge chair, angling your horizon up the red gritty sandstone + mint-green-lichen face. Light rises, dunes, rivulets, races, channels, shears, overhangs, outcroppings, layer faults/fractures… few rebellious saplings.
 
 From that new horizon convey stratified clouds across a subtly gradated blue backdrop.
@@ -24,7 +26,7 @@ Occasional silence... but they do keep coming... every couple of minutes... with
 - - -
 
 <p align="center">
-  <img src="/src/content/blog/first-second-flatiron-trail.png"
+  <img src="/public/first-second-flatiron-trail.png"
   width="500"
   decoding="async"
   loading="lazy"
