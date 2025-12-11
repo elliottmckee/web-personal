@@ -26,7 +26,7 @@ Occasional silence... but they do keep coming... every couple of minutes... with
 - - -
 
 <p align="center">
-  <img src="/public/first-second-flatiron-trail.png"
+  <img src="/first-second-flatiron-trail.png"
   width="500"
   decoding="async"
   loading="lazy"
