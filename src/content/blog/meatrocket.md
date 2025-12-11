@@ -11,7 +11,7 @@ heroImage: ''
 
 # Preamble
 
-I wanted to hack this together to share some detail behind what I did for [meatrocket](https://www.youtube.com/bpsspace) temperature predictions, but also to maybe help defend+explain some of the really cursed things I did. 
+I wanted to hack this together to share some detail behind what I did for [meatrocket](https://youtu.be/9UX7NJLYyb4?si=PO7_Q2Ywxpb8hj2-) temperature predictions, but also to maybe help defend+explain some of the really cursed things I did. 
 
 **The two-bullet summary here is that I:**
 1) ran some CFD to get heating environments
